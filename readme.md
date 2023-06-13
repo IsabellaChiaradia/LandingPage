@@ -22,10 +22,8 @@ The She-Hulk website can be used to learn more about the character, Jennifer Wal
 Contributing
 Contributions to the She-Hulk website are welcome! If you have any improvements or suggestions, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them with descriptive commit messages.
-Push your changes to your forked repository.
-Submit a pull request detailing your changes.
+Access to the She-Hulk website
+https://thriving-fudge-581826.netlify.app/
+
 License
 The She-Hulk website is licensed under the MIT License.
