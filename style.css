@@ -1,10 +1,12 @@
-html {
+html, body {  
   height: 100%;
 }
+
 body {
     font-family: 'Marvel', sans-serif;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    overflow-x: hidden;
     background-image: url(./assets/176568-she-hulk-background.png);
     background-size: cover;
     background-repeat: no-repeat;    
@@ -20,30 +22,18 @@ header img {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    /* background-color: #6a9113; */
-   }
+  }  
   
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar ul li {
-    display: inline;
-  }
-  
-  .navbar ul li a {
+  .navbar a {
     background-color: #41b234;
     color: #fff;
     padding: 10px;
-    border-radius: 2px;
     text-decoration:none;
     margin-left: 20px;
     box-shadow: 0 0 10px #000000;
   }
 
-  .navbar ul li a:hover{
+  .navbar a:hover{
     background: #c23ce4;
     transition: 1s all;
     transform:scale(1.5);
@@ -53,13 +43,12 @@ header img {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: centert;
+    align-items: flex-start;
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
     background-image: radial-gradient(ellipse, #6cdc44 0%, #169612 100%);
     box-shadow: 0 0 10px #000000;
-    border-radius: 2px;
     opacity: 0.8;    
  }
 
@@ -68,6 +57,10 @@ header img {
     height: auto;
     margin-left: 20px;
   }  
+
+  .navbar a, .container, .container img {
+    border-radius: 2px;
+  }
 
   .container p {
     color: #fff;
@@ -80,10 +73,9 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: linear-gradient(#6a9113, #144700); */
+    flex-shrink: 0;
     margin: 0 auto;
     padding: 10px;
-    /* opacity: 0.5; */
   }
 
   footer img{
