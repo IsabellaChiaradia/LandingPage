@@ -38,7 +38,6 @@ header img {
 .navbar a:hover{
   background: #c23ce4;
   transition: 1s all;
-  transform:scale(1.5);
 }
 
 .container {
